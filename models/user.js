@@ -18,7 +18,6 @@ const User = sequelize.define('user',{
     email: {
         type: Sequelize.STRING,
         notNull: true,
-
     }
 }   
 )
